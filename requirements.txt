@@ -1,0 +1,6 @@
+PyYAML
+ffmpy
+google-cloud-pubsub
+boto3
+botocore
+dynamo

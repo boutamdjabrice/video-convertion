@@ -1,0 +1,13 @@
+google:
+    project-id: 'videoconvertering3'
+    topic: 'tpconverter'
+
+aws:
+    dynamodb:
+        name: 'dynamodb'
+        table: 'video_conversions'
+        region: 'eu-west-3'
+    s3:
+        name: 'edu.esipe.i3.ezipflix'
+        region: 'eu-west-3'
+
