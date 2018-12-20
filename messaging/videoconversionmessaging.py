@@ -10,7 +10,7 @@ logging.basicConfig(format='%(asctime)s - %(levelname)s: %(message)s', level=log
 # rabbitmqadmin -H localhost -u ezip -p pize -V ezip purge queue name=video-conversion-queue
 # rabbitmqadmin -H localhost -u ezip -p pize -V ezip get queue=video-conversion-queue
 
-class VideoConversionMessaging(Object):
+class VideoConversionMessaging(object):
     def __init__(self, _config_, database_service, conversion_service):
         project_id = _config_.get_google_project_id()
         subscription_name = _config_.get_google_subscription_name()

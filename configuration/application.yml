@@ -8,6 +8,6 @@ aws:
         table: 'video_conversions'
         region: 'eu-west-3'
     s3:
-        name: 'edu.esipe.i3.ezipflix'
+        name: 'edu.esipe.i3.tpvideoconverterin3s3'
         region: 'eu-west-3'
 

@@ -5,7 +5,7 @@ import logging
 from configuration.configuration import Configuration
 from messaging.videoconversionmessaging import VideoConversionMessaging
 from database.mongodb.videoconversion import VideoConversion
-from videoconvunixsocket.conversion_service import VideoConversionUnixSocket
+from videoconvunixsocket.videoconversionunixsocket import VideoConversionUnixSocket
 
 
 if __name__ == '__main__':
